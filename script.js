@@ -59,7 +59,7 @@ document.addEventListener('touchmove', (event) => {
 
     previousTouchPosition = currentTouchPosition;
   }
-});
+}, { passive: false });
 
 document.addEventListener('touchend', () => {
   dragging = false;
