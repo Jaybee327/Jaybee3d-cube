@@ -8,7 +8,7 @@ let dragging = false;
 let previousMousePosition = null;
 let previousTouchPosition = null;
 
-const rotationSpeed = isMobile() ? 0.1 : 0.5;
+const rotationSpeed = isMobile() ? 1 : 1;
 
 function isMobile() {
   return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
